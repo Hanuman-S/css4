@@ -1,0 +1,22 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+body{
+    min-height:100vh;
+    /* this makes the body occupy the complete web page even if there is not enough content on the page, this is a relative quantity and the root value can change with browser settings or can be changed manually by using html rule */
+}
+h1{
+    border:2px dashed red;
+    width:50%; /* this makes the h1 occupy 50% of its initial width, this is a relative quantity and the root value can change with browser settings or can be changed manually by using html rule, vw unit also does the same thing but it does not consider into account the scroll bar */
+    font-size:3rem;/* this is called root em, and em is the unit so if root font-size is 1em this will become 3em, this is a relative quantity and the root value can change with browser settings or can be changed manually by using html rule, em is used if you want the font size relative to previous font size and rem is used if you want the font size relative only to the root font size */
+    padding:0.5em;
+}
+main{
+    font-size: 2rem;
+}
+p{
+    font-size: 2rem;
+    width:60ch; /*Represents the width, or more precisely the advance measure, of the glyph "0" (zero, the Unicode character U+0030) in the element's font  */
+}
